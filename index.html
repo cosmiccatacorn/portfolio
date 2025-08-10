@@ -4,104 +4,162 @@
 <head>
     <title> Mariana Catalina Sandoval </title>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="styles.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1> Mariana Catalina Sandoval </h1>
-        <h3> Estudiante de Ingeniería informática</h3>
-        <img src="yo.jpg" width="256" height="256" alt="yo :D" />
+    <header class="header-a">
+        <div class="foto">
+            <img class="pfp" src="yo.jpg" alt="yo :D">
+        </div>
+        <div class="name">
+            <h1> Mariana <br>Catalina <br>Sandoval </h1>
+            <h4> Ingeniera informática</h4>
+        </div>
     </header>
+    <br>
     <main>
-        <section id="contact-info">
-            <img src="phone-call.jpg" width="50" height="50" />
-            <p>+57 315556****</p>
-            <img src="mail.jpg" alt="e-mail " width="50" height="50"/>
-            <p>marianasanper@unisabana.edu.co</p>
-            <p>Universidad de la Sabana</p>
+        <section class="contact-info">
+            <div class="textt">
+                <p>📞 +57 3155564097</p>    
+                <p>📧 marianasanper@unisabana.edu.co</p>
+                <p>👩‍🎓 Universidad de la Sabana</p>
+            </div>
             <nav>
-                <button id="gitHub">
-                    <a href="https://github.com/cosmiccatacorn"> GitHub</a>
-                </button>
-                <div id="form-contact">
-                    <button>
-                        <a href="form.html"> Pongámonos en contacto </a>
-                    </button>
-                </div>
+                <a class="btn" id="gitHub" href="https://github.com/cosmiccatacorn" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn" href="form.html">Pongámonos en contacto</a>
             </nav>
         </section>
-        <section id="educacion">
-            <h3> Educación </h3>
-            <p> Semillero de IA - UAN 2024 </p>
-            <p> Samsung Innovation Campus - Samsung -URosario 2023</p>
-        </section>
-        <section id="certifications">
-            <h3> Certificaciones </h3>
-            <p>Fundamentos de Programación - Samsung Innovation Campus 2022</p>
-            <p>Kaggle Intro to Machine Learning </p>
-            <p>Algo de GitHub y MS Learn no me acuerdo jajaj </p>
-        </section>
-        <section id="skills">
-            <h3>
-                Habilidades
-            </h3>
-            <p>
-                - Python<br>
-                - Numpy<br>
-                - Pandas<br>
-                - Java<br>
-                - Programación Orientada a Objetos<br>
-                - Prompting
-            </p>
-        </section>
-        <section id="languages">
-            <h3>
-                Idiomas
-            </h3>
-            <p>
-                Español - Nativo <br>
-                Inglés - Avanzado <br>
-                Francés - Básico
-            </p>
-        </section>
-        <section id="about-me">
-            <h3>
-                About me
-            </h3>
-            <p>
-                Soy estudiante de ing informática
-                Curiosa, creativa y un poco rara. <br>
-                Me encanta aprender y crear con tecnología
-            </p>
-        </section>
-        <section id="experience">
-            <h3>
-                Experiencia
-            </h3>
-            <p>
-                Sistema de Gestión Inmobiliaria - Universidad de la Sabana<br>
-                Proyecto Final de Programación Orientada a Objetos, resolviendo desafíos del mundo de bienes raíces
-            </p>
-            <p>
-                Create.ly - Dale vida a tus ideas <br>
-                Diseño y desarrollo de página web para potenciar tu creatividad con IA gracias a la API de Gemini
-                (deployment pendiente gg)
-            </p>
-        </section>
-        <section id="reference">
-            <h3>
-                Referencias
-            </h3>
-            <p>
-                Para referencias dirijase a:<br>
-                - Jaime Fernando Pérez, Msc. Ing. de Sistemas<br>
-                317 no me acuerdo<br>
-                - Mi gata<br>
-                <img src="Captura de pantalla 2024-11-21 070524.png" width="200" height="250" />
-            </p>
-        </section>
+        <div  class="main-container">
+            <div class="right-column">
+                <div>    
+                    <section class="right" id="educacion">
+                        <h3> Educación<hr></h3>
+                        
+                        <h4>Ingeniería informática</h4>
+                        <p> Universidad de la Sabana 2024-2028</p>
+                        <h4>Semillero de IA</h4>
+                        <p> Universidad Antonio Nariño 2024 </p>
+                        <h4>Samsung Innovation Campus</h4>
+                        <p>Samsung URosario 2022-2023</p>
+                    </section>
+                </div>
+                <section class="right" id="certifications">
+                    <h3> Certificaciones <hr> </h3>
+                    
+                    <ul>
+                        <li>Fundamentos de Programación - Samsung Innovation Campus 2022 </li>
+                        <li>Kaggle Intro to Machine Learning</li>
+                        
+                    </ul>
+                </section>
+                <section class="right" id="skills">
+                    <h3>
+                        Habilidades
+                        <hr>
+                    </h3>
+                    <ul>
+                        <li> Python</li>
+                        <li> Numpy</li>
+                        <li> Pandas</li>
+                        <li> Matplotlib</li>
+                        <li> Java</li>
+                        <li> Programación Orientada a Objetos</li>
+                        <li> Prompting</li>
+                    </ul>
+                </section>
+                <section class="right" id="languages">
+                    <h3>
+                        Idiomas
+                        <hr>
+                    </h3>
+                    <ul>
+                        <li>Español - Nativo </li>
+                        <li>Inglés - Avanzado</li>
+                        <li>Francés - Básico</li>
+                    </ul>
+                    
+                </section>
+            </div>
+            <div class="left-column">    
+            <section class="left" id="about-me">
+                <h3>
+                    About me
+                    <hr>
+                </h3>
+                
+                    <h4>Ingeniería, creatividad y propósito.</h4>
+                <p>
+                    Soy Catalina Sandoval, ingeniera informática decidida a<br>
+                    transformar la educación con tecnología y experiencias que inspiren.<br>
+                    Me apasiona la intersección entre tecnología, educación y creatividad, <br>
+                    y sueño con construir soluciones que hagan del aprendizaje<br>
+                    una experiencia inmersiva y accesible para todos.<br>
+
+
+                    Creo en el poder de la innovación con propósito y en que <br>
+                    los proyectos más grandes nacen de la mezcla entre<br>
+                     lógica, arte y un profundo deseo de impacto social.
+                </p>
+            </section>
+            
+                <section class="left" id="experience">
+                    <h3>
+                        Experiencia
+                        <hr>
+                    </h3>
+                    <h4>Sistema de Gestión Inmobiliaria - Universidad de la Sabana
+                        </h4>
+                    <p>
+                        Proyecto Final de Programación Orientada a Objetos, resolviendo desafíos del mundo de bienes raíces
+                    </p>
+                    <h4>
+                        Create.ly - Dale vida a tus ideas</h4>
+                    <p>
+                        Diseño y desarrollo de página web para potenciar tu creatividad con IA gracias a la API de Gemini
+                    </p>
+                </section>
+                <section class="left" id="reference">
+                    <h3>
+                        Referencias
+                        <hr>
+                    </h3>
+                    <h4>
+                        Jaime Fernando Pérez, Msc. Ing. de Sistemas
+                    </h4>
+                    <p>
+                        Universidad Católica de Colombia<br>
+                        317 1234567 <br>
+                    </p>
+                    <h4>
+                        Mi gata
+                    </h4>
+                    <p>
+                        Nombre: Oreo<br>
+                        Tipo: gato vaca 
+                    </p>
+                </section>
+            </div>
+        </div>
     </main>
 </body>
 
 </html>
+
+<!-- Hola profe!
+
+Resumen breve/Notas
+
+Mi reto css está compuesto por cuatro archivos (dos htmls, un css y la imagen mía respectivamente)
+Actualicé el html con respecto al reto anterior porque faltaba información y no había notado ciertas estructuras
+
+Durante el desarrollo, confundí left y right en las clases que había creado,
+ error que me tomó mucho tiempo notar. Finalmente resolví los conflictos, pero las referencias
+ aun no son correctas (left está a la derecha y right a la izquierda, mala mía profe)
+
+El css incluye una media query para hacer el diseño responsivo al tamaño de pantalla
+
+-->
