@@ -106,9 +106,9 @@ nav {
 
 .btn:active {
     box-shadow: none;
-    transform: translate(3px, 3px);
+    transform: scale(0.9);
 }
-
+    
 .btn:hover {
     text-decoration: underline;
 }
